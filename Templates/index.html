@@ -13,17 +13,7 @@
 	<meta name="keywords" content="Georgiev, cool" />
 	<meta name="author" content="Asen Georgiev" />
 
-  	<!-- Facebook and Twitter integration
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-																				-->
+
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
 	<!-- Animate.css -->
@@ -53,6 +43,9 @@
 	<![endif]-->
 
 	</head>
+
+
+
 	<body>
 
 	<div class="gtco-loader"></div>
@@ -69,15 +62,7 @@
 					<div class="col-md-6 col-xs-6">
 						<div id="gtco-logo"><a href="index.html">Georgiev<em>.</em>tech</a></div>
 					</div>
-					<!-- Ommited facebook icons
-						<div class="col-md-6 col-xs-6 social-icons">
-						<ul class="gtco-social-top">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-instagram"></i></a></li>
-						</ul>
-					</div> -->
+
 				</div>
 			</div>
 		</div>
@@ -89,7 +74,7 @@
 						<ul>
 							<li class="active"><a href="">Home</a></li>
 							<li class="has-dropdown">
-								<a href="">Services</a>
+								<a href="">Bullshit</a>
 								<ul class="dropdown">
 									<li><a href="/chat_bot">Chat bot</a></li>
 									<li><a href="/bulls_and_cows">Cows and Bulls</a></li>
@@ -115,7 +100,7 @@
 				<div class="col-md-12 mt-text text-center animate-box" data-animate-effect="fadeInUp">
 					<h1>Think first <strong>Act later</strong></h1>
 					<h2>Turn the tide</h2>
-					<div class="text-center"><a href="https://youtu.be/kRPGPAnPNa8" class="btn btn-primary btn-lg popup-vimeo">Watch the video</a></div>
+					<div class="text-center"><a href="https://vimeo.com/223890121" class="btn btn-primary btn-lg popup-vimeo">Watch the video</a></div>
 				</div>
 			</div>
 		</div>
@@ -215,25 +200,67 @@
 			<div class="gtco-container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-						<h2>Services</h2>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+						<h2>Bullshit</h2>
+						<p>Randomly developed bulshit</p>
 					</div>
 				</div>
 				<div class="row">
 
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="#" class="gtco-card-item">
+						<a href="/chat_bot" class="gtco-card-item">
 							<figure>
 								<div class="overlay"><i class="ti-plus"></i></div>
 								<img src="{% static 'images/img_1.jpg' %}" alt="Image" class="img-responsive">
 							</figure>
 							<div class="gtco-text">
-								<h2>Data Analytics</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-								<p><span class="btn btn-primary">Learn more</span></p>
+								<h2>Chat bot</h2>
+								<p>A simple jokes telling bot</p>
+								<p><span class="btn btn-primary">Go for it</span></p>
 							</div>
 						</a>
 					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a href="/bulls_and_cows" class="gtco-card-item">
+							<figure>
+								<div class="overlay"><i class="ti-plus"></i></div>
+								<img src="{% static 'images/img_2.jpg' %}" alt="Image" class="img-responsive">
+							</figure>
+							<div class="gtco-text">
+								<h2>Cows and Bulls</h2>
+								<p>Guess computer's number</p>
+								<p><span class="btn btn-primary">Play</span></p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a href="/csv_to_xlsx" class="gtco-card-item">
+							<figure>
+								<div class="overlay"><i class="ti-plus"></i></div>
+								<img src="{% static 'images/img_3.jpg' %}" alt="Image" class="img-responsive">
+							</figure>
+							<div class="gtco-text">
+								<h2>Csv to Excel</h2>
+								<p>Write the content of csv files to an excel spreadsheet</p>
+								<p><span class="btn btn-primary">Convert</span></p>
+							</div>
+						</a>
+					</div>
+
+
+					<div class="col-lg-4 col-md-4 col-sm-6">
+						<a href="/mercury_retrograde" class="gtco-card-item">
+							<figure>
+								<div class="overlay"><i class="ti-plus"></i></div>
+								<img src="{% static 'images/img_1.jpg' %}" alt="Image" class="img-responsive">
+							</figure>
+							<div class="gtco-text">
+								<h2>Mercury retrograde</h2>
+								<p>Better don't evet click. Everithing is upside down because of Mercury retrograde</p>
+								<p><span class="btn btn-primary">Risk it</span></p>
+							</div>
+						</a>
+					</div>
+
 					<div class="col-lg-4 col-md-4 col-sm-6">
 						<a href="#" class="gtco-card-item">
 							<figure>
@@ -241,51 +268,9 @@
 								<img src="{% static 'images/img_2.jpg' %}" alt="Image" class="img-responsive">
 							</figure>
 							<div class="gtco-text">
-								<h2>Web Development</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-								<p><span class="btn btn-primary">Learn more</span></p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="#" class="gtco-card-item">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="{% static 'images/img_3.jpg' %}" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text">
-								<h2>Branding</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-								<p><span class="btn btn-primary">Learn more</span></p>
-							</div>
-						</a>
-					</div>
-
-
-					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="#" class="gtco-card-item">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="{% static 'images/img_1.jpg' %}" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text">
-								<h2>eCommerce Development</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-								<p><span class="btn btn-primary">Learn more</span></p>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="#" class="gtco-card-item">
-							<figure>
-								<div class="overlay"><i class="ti-plus"></i></div>
-								<img src="{% static 'images/img_2.jpg' %}" alt="Image" class="img-responsive">
-							</figure>
-							<div class="gtco-text">
-								<h2>Design &amp; UX</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-								<p><span class="btn btn-primary">Learn more</span></p>
+								<h2>Nothing &amp; Nothing</h2>
+								<p>I don't even have an idea what to put here. So it's just a dummy so far.</p>
+								<p><span class="btn btn-primary">Home</span></p>
 							</div>
 						</a>
 					</div>
@@ -297,9 +282,9 @@
 								<img src="{% static 'images/img_3.jpg' %}" alt="Image" class="img-responsive">
 							</figure>
 							<div class="gtco-text">
-								<h2>Strategy</h2>
-								<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-								<p><span class="btn btn-primary">Learn more</span></p>
+								<h2>Again Nothing</h2>
+								<p>I don't even have an idea what to put here. So it's just a dummy so far.</p>
+								<p><span class="btn btn-primary">Home</span></p>
 							</div>
 						</a>
 					</div>
@@ -308,47 +293,7 @@
 			</div>
 		</div>
 
-		<div id="gtco-features">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-						<h2>How We Work</h2>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-sm-6">
-						<div class="feature-center animate-box" data-animate-effect="fadeIn">
-							<span class="icon">
-								<i>1</i>
-							</span>
-							<h3>Design</h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="feature-center animate-box" data-animate-effect="fadeIn">
-							<span class="icon">
-								<i>2</i>
-							</span>
-							<h3>Develop</h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-6">
-						<div class="feature-center animate-box" data-animate-effect="fadeIn">
-							<span class="icon">
-								<i>3</i>
-							</span>
-							<h3>Launch</h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident.</p>
-						</div>
-					</div>
 
-
-				</div>
-			</div>
-		</div>
 	</div>
 
 
@@ -363,76 +308,6 @@
 		</div>
 	</div>
 
-	<div id="gtco-counter" class="gtco-section">
-		<div class="gtco-container">
-
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Facts</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-
-			<div class="row">
-
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
-					<div class="feature-center">
-						<span class="counter js-counter" data-from="0" data-to="196" data-speed="5000" data-refresh-interval="50">1</span>
-						<span class="counter-label">Clients</span>
-
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
-					<div class="feature-center">
-						<span class="counter js-counter" data-from="0" data-to="97" data-speed="5000" data-refresh-interval="50">1</span>
-						<span class="counter-label">Projects</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
-					<div class="feature-center">
-						<span class="counter js-counter" data-from="0" data-to="12402" data-speed="5000" data-refresh-interval="50">1</span>
-						<span class="counter-label">Coffee</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInUp">
-					<div class="feature-center">
-						<span class="counter js-counter" data-from="0" data-to="12202" data-speed="5000" data-refresh-interval="50">1</span>
-						<span class="counter-label">Line of codes</span>
-
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
-
-
-
-	<div id="gtco-subscribe">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Subscribe</h2>
-					<p>Be the first to know about the new templates.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2">
-					<form class="form-inline">
-						<div class="col-md-6 col-sm-6">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Your Email">
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
 
 	<footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
@@ -440,22 +315,20 @@
 
 				<div class="col-md-4">
 					<div class="gtco-widget">
-						<h3>About Us</h3>
+						<h3>About Me</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat.</p>
-						<p><a href="#">Learn more...</a></p>
+						<p><a href="https://en.wikipedia.org/wiki/Main_Page">Learn more...</a></p>
 					</div>
 				</div>
 
 				<div class="col-md-4 col-md-push-1">
 					<div class="gtco-widget">
-						<h3>Services</h3>
+						<h3>Bullshit</h3>
 						<ul class="gtco-footer-links">
-							<li><a href="#">Data Analytics</a></li>
-							<li><a href="#">Web Development</a></li>
-							<li><a href="#">Branding &amp; Identity</a></li>
-							<li><a href="#">eCommerce Development</a></li>
-							<li><a href="#">Design &amp; UX</a></li>
-							<li><a href="#">Strategt</a></li>
+							<li><a href="/chat_bot">Chat bot</a></li>
+							<li><a href="/bulls_and_cows">Cows and Bulls</a></li>
+							<li><a href="/csv_to_xlsx">Csv to Excel</a></li>
+							<li><a href="/mercury_retrograde">Mercury Retrograde</a></li>
 						</ul>
 					</div>
 				</div>
@@ -466,9 +339,8 @@
 					<div class="gtco-widget">
 						<h3>Get In Touch</h3>
 						<ul class="gtco-quick-contact">
-							<li><a href="#"><i class="icon-phone"></i> +1 234 567 890</a></li>
-							<li><a href="#"><i class="icon-mail2"></i> info@GetTemplates.co</a></li>
-							<li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+							<li><a href="callto:+359878652995"><i class="icon-phone"></i> +359 878652995</a></li>
+							<li><a href="mailto:assen.georgiew@gmail.com"><i class="icon-mail2"></i> assen.georgiew@gmail.com</a></li>
 						</ul>
 					</div>
 				</div>
@@ -478,17 +350,10 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
-						<small class="block">Designed by <a href="http://GetTemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; No Copyright :-)</small>
+						<small class="block">Free Design template by <a href="http://GetTemplates.co/" target="_blank">GetTemplates.co</a> </small>
 					</p>
-					<p class="pull-right">
-						<ul class="gtco-social-icons pull-right">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
-					</p>
+
 				</div>
 			</div>
 
