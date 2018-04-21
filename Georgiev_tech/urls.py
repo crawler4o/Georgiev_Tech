@@ -19,5 +19,9 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path(r'chat_bot/', views.chat_bot),
+    path(r'bulls_and_cows/', views.bulls_and_cows),
+    path(r'csv_to_xlsx/', views.csv_to_xlsx),
+    path(r'mercury_retrograde/', views.mercury_retrograde),
     path(r'', views.home)
 ]
