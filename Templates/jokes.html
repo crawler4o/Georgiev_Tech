@@ -72,7 +72,7 @@
 				<div class="row">
 					<div class="col-xs-12 text-center menu-1">
 						<ul>
-							<li class="active"><a href="">Home</a></li>
+							<li class="active"><a href="/">Home</a></li>
 							<li class="has-dropdown">
 								<a href="">Bullshit</a>
 								<ul class="dropdown">
@@ -93,18 +93,18 @@
 		</nav>
 	</div>
 
-	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url({% static 'images/img_bg_4.jpg' %})" data-stellar-background-ratio="0.5">
+
+	<div class="gtco-cover gtco-cover-sm" style="background-image: url({% static 'images/img_bg_3.jpg' %})" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
-		<div class="gtco-container">
-			<div class="row row-mt-15em">
-				<div class="col-md-12 mt-text text-center animate-box" data-animate-effect="fadeInUp">
-					<h1>Think first <strong>Act later</strong></h1>
-					<h2>Turn the tide</h2>
-					<div class="text-center"><a href="https://vimeo.com/223890121" class="btn btn-primary btn-lg popup-vimeo">Watch the video</a></div>
+		<div class="gtco-container text-center">
+			<div class="display-t">
+				<div class="display-tc">
+					<h1 class="animate-box">Do you want a joke?</h1>
 				</div>
 			</div>
 		</div>
-	</header>
+	</div>
+
 
 	<div class="flex-section gtco-gray-bg">
 		<div class="col-1">
@@ -112,88 +112,30 @@
 
 				<div class="row row-pb-sm">
 					<div class="col-md-12">
-					<h2>Creative Minds</h2>
+					<h2>Here you are:</h2>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae accusamus, fugiat ut! Ducimus accusamus, quos. Esse ea iste, expedita atque quod quo maxime, saepe! Architecto unde aliquid atque excepturi dolores dolore fugit rem recusandae amet a, molestiae et! Dolore, laborum?</p>
-					<p>Quaerat quisquam quasi minima at molestias porro accusantium qui atque doloremque ab, odio tempora obcaecati cumque veritatis quo, assumenda nihil dolor optio enim fugit accusamus laborum. Autem neque dignissimos, corrupti, fugiat labore nisi illo, delectus, alias natus optio distinctio culpa!</p>
+					<p>{{ rand_joke }}</p>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<ul class="check-li">
-							<li>Quaerat quisquam quasi</li>
-							<li>Accusantium qui atque doloremque</li>
-							<li>Expedita atque quod</li>
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<ul class="check-li">
-							<li>Quaerat quisquam quasi</li>
-							<li>Accusantium qui atque doloremque</li>
-							<li>Expedita atque quod</li>
-						</ul>
-					</div>
-				</div>
+
 			</div>
 		</div>
 		<div class="col-2 flex-img" style="background-image: url({% static 'images/img_1.jpg' %});"></div>
 	</div>
 
-	<div class="gtco-cover gtco-cover-sm" style="background-image: url({% static 'images/img_bg_2.jpg' %})"  data-stellar-background-ratio="0.5">
+
+	<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url({% static 'images/img_bg_4.jpg' %})" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
-		<div class="gtco-container text-center">
-			<div class="display-t">
-				<div class="display-tc">
-					<h1 class="animate-box">Never Stop Learning</h1>
+		<div class="gtco-container">
+			<div class="row row-mt-15em">
+				<div class="col-md-12 mt-text text-center animate-box" data-animate-effect="fadeInUp">
+					<h1>how about <strong>one joke more</strong></h1>
+					<h2>just click</h2>
+					<div class="text-center"><a href="/jokes" class="btn btn-primary btn-lg">Yes</a></div>
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="flex-section reverse">
-		<div class="col-1">
-			<div class="text">
-
-				<div class="row row-pb-sm">
-					<div class="col-md-12">
-						<h2>Expertise &amp; Beliefs</h2>
-						<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae accusamus, fugiat ut! Ducimus accusamus, quos. Esse ea iste, expedita atque quod quo maxime, saepe! Architecto unde aliquid atque excepturi dolores dolore fugit rem recusandae amet a, molestiae et! Dolore, laborum?</p>
-						<p>Quaerat quisquam quasi minima at molestias porro accusantium qui atque doloremque ab, odio tempora obcaecati cumque veritatis quo, assumenda nihil dolor optio enim fugit accusamus laborum. Autem neque dignissimos, corrupti, fugiat labore nisi illo, delectus, alias natus optio distinctio culpa!</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-6">
-						<ul class="check-li">
-							<li>Quaerat quisquam quasi</li>
-							<li>Accusantium qui atque doloremque</li>
-							<li>Expedita atque quod</li>
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<ul class="check-li">
-							<li>Quaerat quisquam quasi</li>
-							<li>Accusantium qui atque doloremque</li>
-							<li>Expedita atque quod</li>
-						</ul>
-					</div>
-				</div>
-
-			</div>
-		</div>
-		<div class="col-2 flex-img" style="background-image: url({% static 'images/img_bg_2.jpg' %});"></div>
-	</div>
-
-	<div class="gtco-cover gtco-cover-sm" style="background-image: url({% static 'images/img_bg_3.jpg' %})" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="gtco-container text-center">
-			<div class="display-t">
-				<div class="display-tc">
-					<h1 class="animate-box">Quality Over Quantity</h1>
-				</div>
-			</div>
-		</div>
-	</div>
+	</header>
 
 	<div class="overflow-hid">
 		<div class="gtco-section">
@@ -262,7 +204,7 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="#" class="gtco-card-item">
+						<a href="/" class="gtco-card-item">
 							<figure>
 								<div class="overlay"><i class="ti-plus"></i></div>
 								<img src="{% static 'images/img_2.jpg' %}" alt="Image" class="img-responsive">
@@ -276,7 +218,7 @@
 					</div>
 
 					<div class="col-lg-4 col-md-4 col-sm-6">
-						<a href="#" class="gtco-card-item">
+						<a href="/" class="gtco-card-item">
 							<figure>
 								<div class="overlay"><i class="ti-plus"></i></div>
 								<img src="{% static 'images/img_3.jpg' %}" alt="Image" class="img-responsive">
@@ -294,18 +236,6 @@
 		</div>
 
 
-	</div>
-
-
-	<div class="gtco-cover gtco-cover-sm" style="background-image: url({% static 'images/img_bg_1.jpg' %})"  data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="gtco-container text-center">
-			<div class="display-t">
-				<div class="display-tc">
-					<h1>We have high quality services that you will surely love!</h1>
-				</div>
-			</div>
-		</div>
 	</div>
 
 
