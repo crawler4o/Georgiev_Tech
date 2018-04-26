@@ -11,7 +11,7 @@ def xlsx_writer(csv_files):
 
     for x in csv_files:
         sheet = wb.create_sheet(title=x)
-        raw_file = csv_files[x].read().decode('utf-8', 'replace')
+        raw_file = csv_files[x].read().decode()
         dialect = csv.Sniffer().sniff(raw_file)
         csv_data = csv.reader(raw_file, dialect)
         row_track = 1
