@@ -5,7 +5,7 @@
 	URL: http://gettemplates.co
 -->
 <form action="" method="post" enctype="multipart/form-data">
-	<input type="file" name="YourFile">
 	  {% csrf_token %}
+		{{ UploadFileForm }}
 	<input type='submit' value='Submit'>
 </form>
